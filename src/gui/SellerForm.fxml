@@ -44,40 +44,68 @@
 				<TextField fx:id="txtName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 				<TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 				<DatePicker fx:id="dpBirthDate" prefHeight="26.0" prefWidth="234.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-				<TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <ComboBox fx:id="comboBoxDepartment" prefHeight="26.0" prefWidth="235.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 				<HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
 					<children>
 						<Button fx:id="btCancel" mnemonicParsing="false" onAction="#onBtCancelAction" text="Cancel" />
 						<Button fx:id="btSave" mnemonicParsing="false" onAction="#onBtSaveAction" text="Save" />
 					</children>
 				</HBox>
-				<Label fx:id="labelErrorName" prefHeight="27.0" prefWidth="193.0" text=" " textAlignment="CENTER" textFill="#dd0e0e" GridPane.columnIndex="2" GridPane.rowIndex="1">
-					<font>
-						<Font name="System Bold" size="12.0" />
-					</font>
-					<padding>
-						<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-					</padding>
-					<GridPane.margin>
-						<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-					</GridPane.margin>
-				</Label>
-				<Label fx:id="labelErrorEmail" textAlignment="RIGHT" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="2">
-					<font>
-						<Font name="System Bold" size="12.0" />
-					</font>
-				</Label>
-				<Label fx:id="labelErrorBirthDate" textAlignment="RIGHT" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="3">
-					<font>
-						<Font name="System Bold" size="12.0" />
-					</font>
-				</Label>
-				<Label fx:id="labelErrorBaseSalary" textAlignment="RIGHT" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Label fx:id="labelErrorName" prefHeight="27.0" prefWidth="180.0" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font name="System Bold" size="12.0" />
-               </font></Label>
-            <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <ComboBox fx:id="comboBoxDepartment" prefHeight="26.0" prefWidth="235.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Label>
+				<Label fx:id="labelErrorEmail" prefHeight="27.0" prefWidth="180.0" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="2">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+				</Label>
+				<Label fx:id="labelErrorBirthDate" prefHeight="27.0" prefWidth="180.0" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="3">
+					<font>
+						<Font name="System Bold" size="12.0" />
+					</font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+				</Label>
+				<Label fx:id="labelErrorBaseSalary" prefWidth="180.0" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="labelErrorEmail1" prefHeight="27.0" prefWidth="180.0" textFill="#f50707" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Label>
 			</children>
 		</GridPane>
 	</children>
